@@ -104,7 +104,8 @@ All ports are opened in the firewall rule created by the provisioning script.
 This guide assumes the default GCP zone: us-central1-a.
 
 👨‍💻 Author
-Abhay Dandge
+
+## Abhay Dandge
 
 [LinkedIn](https://www.linkedin.com/in/abhaydandge)
  • [Twitter](https://x.com/ABHAYDPATIL96)
