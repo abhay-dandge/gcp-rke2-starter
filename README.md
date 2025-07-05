@@ -40,7 +40,7 @@ Bash or compatible shell environment
 # How to Use
 ## Step 1: Clone the repository
 ```
-git clone https://github.com/YOUR_USERNAME/gcp-rke2-starter.git
+git clone https://github.com/abhay-dandge/gcp-rke2-starter.git
 cd gcp-rke2-starter/scripts
 Step 2: Run the provisioning script
 Edit the variables in the script for your project and zone:
