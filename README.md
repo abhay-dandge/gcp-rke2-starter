@@ -42,14 +42,14 @@ Bash or compatible shell environment
 ```
 git clone https://github.com/abhay-dandge/gcp-rke2-starter.git
 cd gcp-rke2-starter/scripts
-Step 2: Run the provisioning script
-Edit the variables in the script for your project and zone:
 ```
-
+## Step 2: Run the provisioning script
+Edit the variables in the script for your project and zone:
 ```
 chmod +x create_rke2_resources.sh
 ./create_rke2_resources.sh
-This creates:
+```
+## This creates:
 
 🔺Firewall rule: allow-rke2-ports
 
@@ -58,7 +58,7 @@ This creates:
 # What’s Next?
 ## Follow the full step-by-step manual installation guide here:
 ```
-📘 docs/step-by-step.md
+# 📘 docs/step-by-step.md
 ```
 # This guide walks you through:
 
