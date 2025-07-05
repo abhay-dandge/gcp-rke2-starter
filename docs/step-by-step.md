@@ -71,7 +71,7 @@ sudo systemctl start rke2-agent
 sudo ln -s /var/lib/rancher/rke2/bin/kubectl /usr/local/bin/kubectl
 ```
 ## ✅ 9. Verify Cluster from the Master Node
-# SSH back into the master node:
+## SSH back into the master node:
 ```
 gcloud compute ssh rke2-master --zone=us-central1-a
 #Then run:
@@ -79,7 +79,7 @@ kubectl get nodes
 #You should now see both rke2-master and rke2-worker listed as Ready.
 ```
 
-##🏷️ 10. Label the Worker Node
+## 🏷️ 10. Label the Worker Node
 ```
 kubectl label node rke2-worker node-role.kubernetes.io/worker=worker
 #Verify:
@@ -87,18 +87,18 @@ kubectl label node rke2-worker node-role.kubernetes.io/worker=worker
 
 kubectl get nodes --show-labels
 ```
-##🧪 11. Test with NGINX Deployment
+## 🧪 11. Test with NGINX Deployment
 ```
 kubectl create deployment nginx --image=nginx
 kubectl get pods -o wide
 kubectl delete deployment nginx
 ```
-##🧹 12. Cleanup (Optional)
+## 🧹 12. Cleanup (Optional)
 ```
 gcloud compute instances delete rke2-master rke2-worker --zone=us-central1-a
 gcloud compute firewall-rules delete allow-rke2-ports
 ```
-##📌 Notes
+# 📌 Notes
 All ports are opened in the firewall rule created by the provisioning script.
 
 This guide assumes the default GCP zone: us-central1-a.
