@@ -28,6 +28,7 @@ gcp-rke2-starter/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 Prerequisites
 A Google Cloud Platform (GCP) project with billing enabled
 
