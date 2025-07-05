@@ -105,4 +105,7 @@ This guide assumes the default GCP zone: us-central1-a.
 
 👨‍💻 Author
 Abhay Dandge
-LinkedIn • Twitter
+
+[LinkedIn](https://www.linkedin.com/in/abhaydandge)
+ • [Twitter](https://x.com/ABHAYDPATIL96)
+
