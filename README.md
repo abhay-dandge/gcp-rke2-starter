@@ -29,7 +29,7 @@ gcp-rke2-starter/
 ├── LICENSE
 └── README.md
 ```
-Prerequisites
+# Prerequisites
 
 A Google Cloud Platform (GCP) project with billing enabled
 
@@ -37,8 +37,8 @@ The gcloud CLI installed and authenticated
 
 Bash or compatible shell environment
 
-How to Use
-Step 1: Clone the repository
+# How to Use
+## Step 1: Clone the repository
 ```
 git clone https://github.com/YOUR_USERNAME/gcp-rke2-starter.git
 cd gcp-rke2-starter/scripts
@@ -55,30 +55,33 @@ This creates:
 
 🔺VMs: rke2-master and rke2-worker
 ```
-What’s Next?
-Follow the full step-by-step manual installation guide here:
+# What’s Next?
+## Follow the full step-by-step manual installation guide here:
 ```
 📘 docs/step-by-step.md
 ```
-This guide walks you through:
+# This guide walks you through:
 
-Installing RKE2 server and agent
+🔺Installing RKE2 server and agent
 
-Joining nodes
+🔺Joining nodes.
 
-Labeling worker
+🔺Labeling worker.
 
-Testing with an NGINX deployment
+🔺Testing with an NGINX deployment.
 
-Cleanup Resources
-To remove the created infrastructure:
+# Cleanup Resources
+## To remove the created infrastructure:
 ```
 gcloud compute instances delete rke2-master rke2-worker --zone=us-central1-a
 gcloud compute firewall-rules delete allow-rke2-ports
 ```
-License
+## License
 This project is licensed under the MIT License.
 
 Author
-Abhay Dandge
-LinkedIn • Twitter
+
+## Abhay Dandge
+
+[LinkedIn](https://www.linkedin.com/in/abhaydandge)
+ • [Twitter](https://x.com/ABHAYDPATIL96)
