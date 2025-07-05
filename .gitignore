@@ -1,0 +1,36 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+
+# Logs and debug
+*.log
+
+# Shell history or secrets (if any)
+*.sh~
+*.secret
+.env
+*.token
+
+# Generated docs or outputs (optional)
+*.pdf
+*.zip
+
+# Node-specific (if any future UI tools are added)
+node_modules/
+
+# Python (if ever used)
+__pycache__/
+*.py[cod]
+
+# Terraform (if added later)
+*.tfstate
+*.tfstate.*
+.terraform/
