@@ -54,7 +54,6 @@ chmod +x create_rke2_resources.sh
 🔺Firewall rule: allow-rke2-ports
 
 🔺VMs: rke2-master and rke2-worker
-```
 # What’s Next?
 ## Follow the full step-by-step manual installation guide here:
 ```
